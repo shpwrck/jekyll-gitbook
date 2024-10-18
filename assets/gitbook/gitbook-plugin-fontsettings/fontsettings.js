@@ -15,8 +15,8 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             id: 0
         },
         {
-            config: 'redhat',
-            text: 'RedHat',
+            config: 'sepia',
+            text: 'Sepia',
             id: 1
         },
         {
@@ -146,7 +146,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             return theme.config == configName;
         })[0];
         // Fallback to default theme
-        return (!!configTheme)? configTheme.id : 1;
+        return (!!configTheme)? configTheme.id : 0;
     }
 
     function update() {
@@ -245,5 +245,3 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         setFamilies:     setFamilies
     };
 });
-
-
