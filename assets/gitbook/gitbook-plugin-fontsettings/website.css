@@ -2,11 +2,11 @@
  * Theme 1
  */
 .color-theme-1 .dropdown-menu {
-  background-color: #111111;
+  background-color: #ee0000;
   border-color: #7e888b;
 }
 .color-theme-1 .dropdown-menu .dropdown-caret .caret-inner {
-  border-bottom: 9px solid #111111;
+  border-bottom: 9px solid #ee0000;
 }
 .color-theme-1 .dropdown-menu .buttons {
   border-color: #7e888b;
@@ -220,7 +220,7 @@
  */
 .book.color-theme-1 .book-summary {
   color: #afa790;
-  background: #111111;
+  background: #ee0000;
   border-right: 1px solid rgba(0, 0, 0, 0.07);
 }
 .book.color-theme-1 .book-summary .book-search {
